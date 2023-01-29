@@ -1,0 +1,245 @@
+body {
+    margin: 0px;
+      font-family:serif;
+  
+   }
+.topnav{
+    width:100%;
+    overflow: hidden;  
+    padding:10px;
+    position: fixed;
+    top: 0;
+    left:0;
+    margin-right:20px; 
+    font-family: Cursive;
+    font-weight: bold;
+  }
+.contactt{
+    margin-right:60px; 
+}
+nav ul{
+    list-style: none;
+    float: right;
+ }
+nav ul li{
+    display:inline;
+  
+}
+.bus i{
+    color:rebeccapurple;
+    font-size:35px;
+   }
+.bus {
+   margin: 30px
+   }
+.topnav br{
+    clear: both;
+}
+.contact{
+    margin: 50px;
+    box-shadow: 20px 40px 20px 40px  #EEEFF8;
+    border-radius: 15px;
+}
+.bus-icon{
+    margin-top: -40px;
+    font-family: cursive;
+}
+.bus-icon a:hover{
+    color: rebeccapurple;
+}
+.topnav a {
+  color: rebeccapurple;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  transition-duration:0.9s;
+}
+.topnav a:hover{
+ color: white;
+  background-color: rebeccapurple;
+   padding: 16px 16px; 
+    border-radius:0px 20px 20px 30px;
+  transition-property: all;
+    transition-duration:1.9s;
+}
+.topnav a:active{
+ color: red;
+  background-color: white;
+   
+}
+
+.home {
+    color:black;
+   padding-top:50px;
+    padding-left: 70px;
+    background-image:url('backgroundImg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    text-align: center;*/
+}
+
+.home h1{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+/*button on the home page section */
+.button {
+ background-color: white;
+  border: none;
+  color: rebeccapurple;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: cursive;
+  border-radius:0px 20px 0px 20px;
+/*  transition-duration:1.9s;*/
+  margin-left: 50px; 
+ }
+.button a{
+ background-color: white;
+  border: none;
+  color: rebeccapurple;
+ }
+a{
+    text-decoration: none;
+    color: black
+    
+}
+.button:hover{
+ color: white;
+  background-color: rebeccapurple;
+  border-radius:0px 20px 0px 20px;   
+ }
+.button a:hover{
+ color: white;
+  background-color: rebeccapurple;
+  border-radius:0px 20px 0px 20px;   
+ }
+#buttonHome{
+    margin-left: 270px; 
+    padding-top:220px;
+    padding-bottom: 46px;
+}
+#homespan{
+     font-size: 40px;
+    font-family: Cursive;
+    color: rebeccapurple;
+}
+.homep{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.h2top{
+    display:block
+    
+}
+/*
+.tops{
+    position: relative;
+}
+  
+*/
+.bor{
+    width: 180px;
+    height: 4px;
+    margin: 5px auto 15px auto;
+    background: rebeccapurple;
+  
+}
+.contact h2,.services h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold
+}
+.services h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold
+}
+.services-body{
+   
+    margin:20px;    
+}
+.services1{
+    padding-right: 90px;
+}
+.services2{
+    padding-right: 50px;
+}
+ .top1{
+    background: url(pic.jpg);
+    width: 400px;
+    height: 305px;
+    top: 734px;
+    left: 460px;
+
+}
+.top2{
+    background: url(cleaning.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 255px;
+    top: 850px;
+    right: 20px;
+
+}
+.top3{
+    background: url(train.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+    top: 1070px;
+    right: 204px;
+
+}
+.servicesh2{
+   text-align: right;
+    width: 370px;
+    font-family: Cursive;
+    margin-left: 50px;
+    color: rebeccapurple;
+    margin-top: 60px;
+}
+.top {
+    position:absolute;
+    border-radius: 6px;
+    box-shadow: 0px 2px 19px rgb(0 0 85 / 15%);
+}
+#cont{
+    font-size: 20px;
+    font-family: Cursive;
+}
+.contact-body{
+       display:flex;
+    justify-content: space-around;
+}
+.servicesub{
+    display:flex;
+    font-family: Cursive;
+    justify-content: space-around;
+    text-align: justify;
+    margin-top: 350px
+}
+.servicesub h3{
+ color: rebeccapurple;
+    font-size: 20px;
+}
+footer{
+    border-top:3px solid rebeccapurple;
+    font-family: Cursive;
+    font-size: 20px;
+ margin:10px;
+}
+#insta{
+margin-left: 680px;
+    font-size: 25px;
+}
+#insta i {
+margin-left: 20px;
+    
+}
