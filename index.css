@@ -7,7 +7,7 @@ body {
     width:100%;
     overflow: hidden;  
     padding:10px;
-    position: fixed;
+    position:absolute;
     top: 0;
     left:0;
     margin-right:20px; 
@@ -62,10 +62,17 @@ nav ul li{
   transition-property: all;
     transition-duration:1.9s;
 }
+.topnav br{
+    clear: both;
+}
 .topnav a:active{
  color: red;
   background-color: white;
    
+}
+#logo {
+    margin-top: -30px;
+    float:left;
 }
 
 .home {
@@ -81,8 +88,9 @@ nav ul li{
 
 .home h1{
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 80px;
 }
+
 
 /*button on the home page section */
 .button {
@@ -110,8 +118,17 @@ a{
     
 }
 .homepar{
-   border:3px solid rebeccapurple;
-    
+   border-radius: 10px;
+   background-color:#404040;
+   width: 30%;
+   left:770px;
+   top:120px;
+   padding: 20px;
+   position: absolute;
+   border: 15px solid #D89552;
+   /* box-shadow: 5px 10px 5px 10px #D89552; */
+   background-color:#404040;
+
 }
 .button:hover{
  color: white;
@@ -125,7 +142,7 @@ a{
  }
 #buttonHome{
     margin-left: 270px; 
-    padding-top:220px;
+    padding-top:320px;
     padding-bottom: 46px;
 }
 #homespan{
@@ -134,9 +151,12 @@ a{
     color: rebeccapurple;
 }
 .homep{
-    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    font-size: 20px;
     font-weight: bold;
     font-family: cursive;
+    color:rebeccapurple;
 }
 .h2top{
     display:block
@@ -160,8 +180,7 @@ a{
     font-size: 20px;
     font-weight: bold
 }
-.services-body{
-   
+.services-body{ 
     margin:20px;    
 }
 .services1{
@@ -222,7 +241,7 @@ a{
     font-family: Cursive;
     justify-content: space-around;
     text-align: justify;
-    margin-top: 350px
+    margin-top: 400px
 }
 .servicesub h3{
  color: rebeccapurple;
@@ -252,25 +271,54 @@ margin-left: 20px;
 @media only screen and (max-width: 600px) {
    #hamburger{
        display: initial;
-     margin-left:370px;
-       margin-top: 27px;
+       margin-top: 0px;
        cursor: pointer;
+       margin-right: 150px;
+       float: right;
+}
+#logo {
+   width: 200px;
+   height:200px;
+   float: left;
 }
 /* if checkbox is checked dipslay the content of .navmenu  */
 #hamburger-menu:checked ~ .navmenu{
     display: initial;
 }
+.homepar{
+    border-radius: 10px;
+    border: 15px solid #D89552;
+    background-color:#404040;
+    width: 270px;
+    left:130px;
+    top:220px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    height: 260px;
+    position: absolute;
+ 
+ }
+ .bus1{
+    margin-top :65px;
+ }
     .topnav nav ul li{
         display:block;
        transition: 0.5s;
        position: relative;
           justify-content: space-around;
        font-size: 5px;
-       margin-top: 10px;
+        
     }
     .navmenu ul{
-        margin-top: -2px;
+        margin-top: 20px;
+        justify-content: space-around;
     }
+    .navmenu ul li{
+        margin: 15px;
+    }
+   
   
      /* this codes mades the menu write up disapper */
     .topnav nav {
@@ -296,8 +344,8 @@ margin-left: 20px;
     font-size: 30px;
 }
  #buttonHome{
-    margin-left: 0px; 
-    margin-top:-220px;
+    margin-left: 10px; 
+    margin-top:-20px;
   
 }
     .servicesub {
