@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>InHouse Laundry services </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>InHouse Laundry services </title> 
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
 <div class ="topnav">
-  <nav>
-                
-    <ul>
+    <input type="checkbox" id="hamburger-menu">
+    <label for ="hamburger-menu"> <i class="fa fa-bars" aria-hidden="true" id="hamburger"></i></label>   
+<nav class = "navmenu">    
+    <ul>    
      <li> <a class="active" href="#home">HOME</a></li>
      <li><a href="#services">SERVICES</a></li>
      <li><a class="contactt" href="#contact">CONTACT US</a></li>
-    </ul> 
-       
-  </nav> 
+    </ul>     
+</nav> 
     <br>
 </div>
 <div class="home" id="home">
     <h1>ONE CALL <span id="homespan">CLEANS</span> IT ALL</h1>
-    <p class="homep">We specialize in providing excellent service, with focus on quality cleaning and stress free delivery on laundry and housing cleaning.</p>
+    <div class="homepar">
+        <p class="homep">We specialize in providing excellent service, with focus on quality cleaning and stress free delivery on laundry and housing cleaning.</p>
+    </div>
+    
        <div id="buttonHome"><button  class ="button">OUR SERVICES</button>
         <button class ="button"><a href="tel:+234 814 238 9592"> CONTACT US</a></button></div>
 </div>
@@ -36,9 +41,10 @@
     <div class="top top2"></div>
     <div class="top top3"></div>
     </div></div>
+    <div class="servicesub">
 <div class="services1">
     <h3>Laundry Services</h3>
-    <p> Wash-iron-Fold<br/>
+    <p> Wash-iron-Fold  <br/>
         Hang dry <br/>
         Dry cleaning<br/> 
 
@@ -51,7 +57,7 @@
         Rest assured your items will be returned clean,fresh and looking great.</p>
 </div>
 <div class="services2">
-         <h3>Domestic, Office and Industrial Cleaning services.</h3>
+         <h3>Domestic, Office and Industrial Cleaning services</h3>
          <p>We provide a limited range of cleaning services including janitorial, upholstery and other few specialists.
 
          We provide cleaning services to all types of buildings including affordable home cleaning services, offices, corporate headquarters, schools, healthcare facilities and industrial facilities. 
@@ -59,16 +65,16 @@
          To tackle hard - to - clean household items, we have janitors with over 5 years experience.</p>
 </div>
     <div class="services3">
-         <h3>Training Cleaning services.</h3>
+         <h3>Training Cleaning services</h3>
          <p>We provide a limited range of cleaning services including janitorial, upholstery and other few specialists.
 
          We provide cleaning services to all types of buildings including affordable home cleaning services, offices, corporate headquarters, schools, healthcare facilities and industrial facilities. 
 
          To tackle hard - to - clean household items, we have janitors with over 5 years experience.</p>
 </div>
+        </div>
 </div>
 </div><br/><br/>
-<!--
 <div class="contact" id="contact">
     <h2>CONTACT US</h2>
     <p id ="cont" style="text-align: center">if you have any questions, please do not hesitate to send us a message. We are always open to your questions, feedback and enquiries.</p>
@@ -91,14 +97,17 @@
 
                </div></div>
 <div class="map">
-    <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=the%20southpointe%20estate&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style><a href="https://www.embedgooglemap.net">google map html generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}</style></div></div>
-    </div></div>
-    
-               
-               
+<div class="mapouter"><div class="gmap_canvas"><iframe width="370" height="380" id="gmap_canvas" src="https://maps.google.com/maps?q=southpointe%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:380px;width:370px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:380px;width:370px;}</style></div></div>
+    </div></div>            
 </div>
--->
-  
+  <footer> 
+    <span id="copyright"><i class="fa fa-copyright" aria-hidden="true"></i>2023 InHouse Laundry. All Rights Reserved
+</span>
+      <span id="insta"> <i class="fa fa-instagram" aria-hidden="true"></i><a href="tel:+234 814 238 9592"><i class="fa fa-phone" aria-hidden="true"></i></a></span>
+    </footer>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
 </body>
 
 </html>

@@ -78,9 +78,10 @@ nav ul li{
 /*    text-align: center;*/
 }
 
+
 .home h1{
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 /*button on the home page section */
@@ -96,7 +97,6 @@ nav ul li{
   text-transform: capitalize;
   font-family: cursive;
   border-radius:0px 20px 0px 20px;
-/*  transition-duration:1.9s;*/
   margin-left: 50px; 
  }
 .button a{
@@ -107,6 +107,10 @@ nav ul li{
 a{
     text-decoration: none;
     color: black
+    
+}
+.homepar{
+   border:3px solid rebeccapurple;
     
 }
 .button:hover{
@@ -138,12 +142,7 @@ a{
     display:block
     
 }
-/*
-.tops{
-    position: relative;
-}
-  
-*/
+
 .bor{
     width: 180px;
     height: 4px;
@@ -243,3 +242,127 @@ margin-left: 680px;
 margin-left: 20px;
     
 }
+#hamburger{
+    display: none;
+  cursor: pointer;
+}
+#hamburger-menu{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+   #hamburger{
+       display: initial;
+     margin-left:370px;
+       margin-top: 27px;
+       cursor: pointer;
+}
+/* if checkbox is checked dipslay the content of .navmenu  */
+#hamburger-menu:checked ~ .navmenu{
+    display: initial;
+}
+    .topnav nav ul li{
+        display:block;
+       transition: 0.5s;
+       position: relative;
+          justify-content: space-around;
+       font-size: 5px;
+       margin-top: 10px;
+    }
+    .navmenu ul{
+        margin-top: -2px;
+    }
+  
+     /* this codes mades the menu write up disapper */
+    .topnav nav {
+        position: relative;
+        top:100%;left:0; right:0;
+        background: #fff;
+        display: none;
+        border-top: 3px solid rgba(0,0,0,.1);
+    } 
+    .topnav a {
+        color: rebeccapurple;
+        font-size: 15px;
+   
+      }
+      .topnav a:hover{
+         padding: 7px 7px; 
+          border-radius:0px 20px 20px 30px;
+      }
+    .contact-body{
+        display: block;
+    }
+    .servicesub h1, .servicesub h2, .servicesub h3{
+    font-size: 30px;
+}
+ #buttonHome{
+    margin-left: 0px; 
+    margin-top:-220px;
+  
+}
+    .servicesub {
+ display: block;
+margin-top: 800px
+}
+ .servicesub p {
+font-size: 20px;
+text-align: center;
+}
+.button {
+  margin-left: 0px;  
+padding: 10px
+ }
+    .home h1{
+    font-size: 30px;
+}
+    #homespan{
+     font-size: 30px;
+}
+.homep{
+    font-size: 20px;
+}
+    .home {
+    color:black;
+   padding-top:90px;
+    padding-bottom: 30px;
+}
+    footer{
+        font-size: 15px;
+    }
+    #insta{
+margin-left: 60px;
+    font-size: 20px;
+}
+#insta i {
+margin-left: 20px;
+    
+}
+     .top1{
+    width: 350px;
+    height: 255px;
+    top: 1000px;
+    left: 20px;
+    z-index: 1;
+
+}
+.top2{
+    width: 350px;
+    height: 255px;
+    top: 1220px;
+    right: 20px;
+   
+}
+.top3{
+    width: 390px;
+    height: 255px;
+    top: 1460px;
+    right: 74px;
+
+}.servicesh2{
+    margin-top: 30px;
+}
+    .map {
+    margin: 10px;  
+    }  
+}
+
