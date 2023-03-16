@@ -4,8 +4,7 @@ body {
   
    }
 .topnav{
-    width:100%;
-    overflow: hidden;  
+    width:95%; 
     padding:10px;
     position:absolute;
     top: 0;
@@ -299,6 +298,8 @@ margin-left: 20px;
     height: 260px;
     position: absolute;
  
+ } .h2top h2{
+    font-size: 28px;
  }
  .bus1{
     margin-top :65px;
@@ -344,9 +345,12 @@ margin-left: 20px;
     font-size: 30px;
 }
  #buttonHome{
-    margin-left: 10px; 
+    margin-left: 50px; 
     margin-top:-20px;
   
+}
+.servicesh2{
+    margin-top: 30px;
 }
     .servicesub {
  display: block;
@@ -406,8 +410,6 @@ margin-left: 20px;
     top: 1460px;
     right: 74px;
 
-}.servicesh2{
-    margin-top: 30px;
 }
     .map {
     margin: 10px;  
